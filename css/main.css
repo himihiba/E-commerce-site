@@ -1,0 +1,63 @@
+/* global variable */
+
+:root{
+    --header-height: 3.5rem;
+    /* colors */
+    --yellow-normall: hsla(33, 88%, 56%, 1);
+    --yellow-light: hsla(33, 88%, 86%, 1);
+    --yellow-click:hsla(33, 91%, 73%, 1);
+    --blue-dark: hsla(189, 24%, 17%, 1);  
+    --blue-dark-hover: hsla(187, 24%, 29%, 1);
+    --blue-normal: hsla(187, 24%, 49%, 1);
+    --blue-light: hsla(186, 23%, 84%, 1);
+    --h2-font-color: hsla(180, 2%, 42%, 1);
+    --text-color: hsla(187, 100%, 8%, 1);
+    --grey-normal: hsla(186, 33%, 78%, 1);
+    --botton-text-color: hsl(0, 0%, 20%);
+    --first-font-color: hsla(0, 0%, 20%, 1);
+    --second-font-color:hsla(40, 60%, 99%, 1);
+    /* weight */
+    --regular:400;
+    --semi-bold:600;
+    --bold:700;
+    /* font size */
+    --
+}
+
+/* end variable */
+
+
+/* global ruls */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+body{
+    background-color: #FFFFFF;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    overflow: hidden;
+}
+
+/* end global rules */
