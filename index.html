@@ -22,17 +22,20 @@
             <a href="#home" class="nav__logo">Kinderly</a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__account">
-                    <li class="list1" id="prices-affich">
-                        <i class='fas fa-chevron-down'></i>
-                        <ul class="prices__list" id="prices-list">
-                            <li class="prices">USD</li>
-                            <li class="prices">DZ</li>
-                            <li class="prices">EU</li>
-                        </ul>
-                    </li>
                     <li class="list1">
-                        <div class="profileImg"><img src="img/profileImg.svg" alt="image" class="profile__img"></div>
+                        <select class="list1" id="prices-affich">
+                        <!-- <i class='fas fa-chevron-down'></i> -->
+                        <!-- <ul class="prices__list" id="prices-list"> -->
+                            <option class="prices">USD</option>
+                            <option class="prices">DZ</option>
+                            <option class="prices">EU</option>
+                        <!-- </ul> -->
+                       </select>
+                    </li>
+                    
+                    <li class="list1">
                         <i class='fas fa-chevron-down'></i>
+                        <div class="profileImg"><img src="img/profileImg.svg" alt="image" class="profile__img"></div>
                         <ul class="account__list" id="acc-list">
                             <li class="acc">
                                 <a href="#" class="acc__links">My Account
@@ -67,17 +70,21 @@
                 </div>
             </div>
             <div class="serch__bar">
-                <input type="text" placeholder="search">
+                <input type="text" placeholder="search" class="serch">
                 <div class="serch__icon">
+                    
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-            <div class="nav__cartshop">
-                <i class="fa-solid fa-cart-shopping"></i>
+            <div class="mobile__container">
+                <div class="nav__cartshop">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
             </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            
         </nav>
      </header>
 
@@ -87,11 +94,62 @@
      <main class="main">
         <!-- Home -->
          <section class="home section" id="home">
-
+            <div class="home__container container">
+                <div class="home__images">
+                    <img src="img/heroImg.svg" alt="image" class="home__img">
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Dress your kids in the best!</h1>
+                    <p class="home__description">Explore our high-quality, stylish, and comfortable clothing collection designed with parents in mind.
+                    </p>
+                </div>
+                <a href="#popular" class="button"  id="buton"><span>Shop Now</span></a>
+            </div>
          </section>
         <!-- quick selection -->
          <section class="selection section">
-
+            <div class="selection__container container grid">
+                <div class="selection__data">
+                    <h2 class="section__title sel">
+                        Quick Selection
+                    </h2>
+                    <p class="selection__description">
+                        Pick product you need,all in few click 
+                    </p>
+                </div>
+                <div class="selection__card">
+                        <div class="girl__collection">
+                        <div class="selec__data">
+                            <h2 class="collection__title">
+                                Collection For Girls
+                            </h2>
+                            <p class="collection_par">
+                                Up To <span class="girl">40%</span> Off
+                            </p>
+                            <a href="#popular" class="selection__button"  id="buton2"><span >Shop Now</span></a>
+                        </div>
+                        <div class="selectionG__img">
+                            <img src="img/itemgirl.svg" alt="image" class="girl_img">
+                        </div>
+                    </div>
+        
+                     <div class="boy__collection">
+                        <div class="selec__data">
+                            <h2 class="collection__title">
+                                Collection For Boys
+                            </h2>
+                            <p class="collection_par">
+                                Up To <span class="boy">40%</span> Off
+                            </p>
+                            <a href="#popular" class="selection__button"  id="buton2"><span>Shop Now</span></a>
+                        </div>
+                        <div class="selectionB__img">
+                            <img src="img/Itemboy.svg" alt="image" class="boy_img">
+                        </div>
+                     </div>
+                    
+                </div>
+            </div>
          </section>
         <!-- show product -->
          <section class="new-arival section">
@@ -126,6 +184,8 @@
      </footer>
 
      <!-- main js -->
-      <script src="js/main.js"></script>
+      <script src="js/main.js">
+        
+      </script>
 </body>
 </html>
