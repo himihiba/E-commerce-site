@@ -598,6 +598,8 @@ h1, h2, h3, h4{
     align-items: center;
     border: 1px solid hsla(186, 33%, 78%, 1);
     margin-inline: 0px;
+    height: 509px;
+    justify-content: space-between;
 }
 .cons__description{
     padding-left: 20px;
@@ -606,6 +608,7 @@ h1, h2, h3, h4{
     font-size: var(--S28);
     font-weight: var(--bold);
     color: var(--text-color);
+    line-height: 42px;
 }
 .cons__para{
     font-weight: var(--regular);
@@ -616,11 +619,85 @@ h1, h2, h3, h4{
 }
 .cons__buuton{
     text-align: center;
-    width: 304px;
+    width: 304.57px;
+    height: 88px;
     background-color:var(--yellow-normall);
     color: hsla(40, 60%, 99%, 1);
     font-size: 16px;
     font-weight: var(--bold);
-    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
+    transform: translateY(40px);
+}
+.cons__image{
+    height: 100%;
+}
+.cons_img{
+    height: 100%;
+    object-fit: cover;
+}
+/* clients opinions */
+.opinion__card{
+    min-width: 348px;
+    height: 448px;
+    background-color: var(--blue-light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    /* transition:height 500ms ease; */
+}
+.opinion__card:hover{
+    transform: translateX(38px);
+    height: 520px;
+    min-width: 404px;
+    background-color: var(--blue-dark-hover);
+    padding: 30px;
+}
+.opinion__card:hover .opinion__name{
+    color: var(--grey-normal);
+}
+.opinion__card:hover .opinion__state{
+    color: rgb(190, 188, 188);
+}
+.opinion__card:hover .theOpinion{
+    color: rgb(255, 255, 255);
+}
+.opinion__image{
+    border-radius: 50%;
+    padding-bottom: 10px;
+}
+.opinion__name{
+    font-size: var(--S16);
+    font-weight: var(--regular);
+    line-height: 22.3px;
+    font-family:cursive;
+    color: var(--text-color);
+}
+.opinion__state{
+    color: hsla(180, 2%, 42%, 1);
+    font-weight: var(--regular);
+    font-size: var(--S16);
+    font-family:cursive;
+    padding-bottom: 10px;
+}
+.theOpinion{
+    font-size: var(--S18);
+    font-weight: var(--regular);
+    color: var(--text-color);
+
+}
+.client__zrqpper{
+    gap: 45px;
+}
+.CL{
+    text-align: left;
+    padding-left: 100px;
+    font-family:cursive;
 }
