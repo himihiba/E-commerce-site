@@ -701,3 +701,83 @@ h1, h2, h3, h4{
     padding-left: 100px;
     font-family:cursive;
 }
+/* contact section */
+.contact__container{
+    position: relative;
+}
+.contact{
+    transform: translate(265px,-295px);
+    width: 425px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey-normal);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.contact__parag{
+    text-align: left;
+}
+.contact__image{
+    width: 100vw;
+}
+.cons__img{
+    width: 100%;
+    object-fit: cover;
+}
+.contact__title{
+    font-size: var(--S24);
+    font-weight: var(--regular);
+    color: var(--text-color);
+    line-height: 36px;
+}
+.contact__par{
+    font-size: var(--S16);
+    font-weight: var(--regular);
+    color: hsla(180, 2%, 42%, 1);
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.input__imail{
+    border: none;
+    width: 274px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.input__imail:focus{
+    outline: none;
+}
+.contact_buton{
+    border: none;
+    background-color: var(--yellow-normall);
+    width: 97px;
+    border-radius: 10px;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: var(--S18);
+    font-weight: var(--bold);
+    line-height: 27px;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+.contact__parag{
+    font-size: 12px;
+    font-weight: var(--regular);
+    color: var(--blue-dark);
+    line-height: 18px;
+}
+
+
+/* footer */
+.footer{
+    height: 705px;
+}
