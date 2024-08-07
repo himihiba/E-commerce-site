@@ -92,7 +92,8 @@ h1, h2, h3, h4{
 }
   
 .section {
-    padding-block: 7rem 1rem;
+    padding-block: 5rem 1rem;
+    width: 100%;
 }
 .section__title {
     text-align: center;
@@ -144,7 +145,7 @@ h1, h2, h3, h4{
     display: flex;
     align-items: center;
     flex: 1;
-    max-width: 355px;
+    max-width: 455px;
     margin-left: 10px;
 }
 .serch{
@@ -444,6 +445,7 @@ h1, h2, h3, h4{
     max-width: 175px;
     max-height: 338px;
 }
+/* slider section */
 .slider{
     width: 85%;
     margin: auto;
@@ -843,4 +845,218 @@ h1, h2, h3, h4{
     font-size: 14px;
     color: var(--text-color);
     font-weight: var(--regular);
+}
+
+/* BREAKPOINTS  */
+/* For small devices */
+
+@media  screen and (max-width: 330px){
+    .container{
+        margin-inline: 1rem;
+    }
+    .section__title{
+        font-size: var(--S24);
+    }
+    .nav__logo{
+    font-size: var(--S24);
+    }
+    .serch{
+        display: none;
+    }
+    .serch__bar{
+        flex-direction: column;
+        margin: 0;
+        width: 30px;
+        order: 2;
+        flex: 0;
+    }
+    .serch__icon{
+        margin: 0;
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+    .mobile__container{
+        flex: 1;
+        justify-content: space-evenly;
+    }
+    .home__data{
+        width: 100%;
+        padding: 10px;
+    }
+    .home__title{
+     font-size: var(--S24);
+     line-height: 39px;
+    }
+    .home__description{
+     font-size: var(--S12);
+     line-height: 28px;
+    }
+    .button {
+      font-size: var(--S16);
+      line-height: 20px;
+      padding: 18px 50px;
+    }
+    .button:focus{
+        background-color: var(--grey-normal);
+    }
+    .selection__container{
+        display: flex;
+        flex-direction: column;
+    }
+    .selection__description{
+        font-size: var(--S20);
+    }
+    .selection__card{
+      max-width: 297px ;
+      max-height: 483px;
+    }
+    .girl__collection, .boy__collection{
+        width: 100%;
+        height: auto;
+    }
+    .selec__data{
+        padding: 15px;
+        display: grid;
+        gap: 0.5rem;
+        overflow: visible;
+    }
+    .collection__title{
+      font-size: var(--S35-h1);
+      line-height: 56px;
+    }
+    .collection__par{
+      line-height: 34.5px;
+      font-size: var(--S12);
+    }
+    .selection__button{
+        width: 122px;
+        padding: 12px 0px;
+    }
+    .selectionG__img{
+        position: absolute;
+        width: 150px;
+        top: 30px;
+        right: -40px;
+    }
+    .selectionB__img{
+        position: absolute;
+        width: 120px;
+        top: 50px;
+        right: -40px;
+    }
+    .prod_desc>* {
+        font-size: var(--S16);
+    }
+    .product__card{
+        min-width: 150px;
+    }
+    .icons_cont>*{
+        font-size: var(--S12);
+        padding: 6px;
+    }
+    .icons_cont{
+        right: 0px;
+        padding: 5px;
+    }
+    .takieem{
+        flex-direction: row;
+        font-size: 10px;
+        padding: 5px 3px 4px 3px;
+    }
+    .product__name{
+        font-size: var(--S18);
+        padding: 0 ;
+        line-height: normal;
+    }
+    .price{
+        font-size: var(--S16);
+        line-height: normal;
+    }
+    .price>del{
+        font-size: var(--S16);
+    }
+    .deal__desc{
+        font-size: var(--S12);
+        padding-bottom: 10px;
+    }
+    .code{
+        font-size: 8px;
+        padding: 3px;
+    }
+    .deal__dtai{
+        position: absolute;
+        bottom: 50%;
+        right: 10%;
+    }
+    .brand_slider{
+        width: 85%;
+        margin: auto;
+    }
+    .cons__description {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cons__title {
+        font-size: 18px;
+        line-height: normal;
+    }
+    .cons__para {
+        font-size: 12px;
+        line-height: normal;
+        padding-bottom: initial;
+    }
+    .cons__buuton {
+        width: 140px;
+        height: initial;
+        font-size: 10px;
+        border-radius: 10px;
+        transform: translateY(0);
+        padding: 1px 4px;
+    }
+    .consoltation__container{
+        height: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.226), rgba(255, 255, 255, 0.5)),url('../img/sectionbackground.svg') center/cover no-repeat;
+        margin-inline: initial;
+        padding: 30px;
+    }
+    .CL{
+        padding-left: 0;
+        margin-bottom: .5rem;
+    }
+    .opinion__card {
+        min-width: 200px;
+        height: 260px;
+        padding: 8px;
+    }
+    .opinion__image {
+        padding-bottom: 0;
+        width: 40px;
+    }
+    .opinion__name{
+        font-size: 10px;
+        line-height: initial;
+    }
+    .client__zrqpper {
+         gap: 15px; 
+    }
+    .opinion__state {
+        font-size: 10px;
+        font-family: cursive;
+        padding-bottom: 0;
+    }
+    .theOpinion {
+        font-size: var(--S12);
+    }
+    .block__par,.block_link{
+        width: 150px;
+    }
+    .social{
+        flex-direction: column;
+    }
+    .cons__image{
+        display: none;
+    }
 }
