@@ -853,6 +853,8 @@ h1, h2, h3, h4{
 @media  screen and (max-width: 330px){
     .container{
         margin-inline: 1rem;
+        max-width: 330px;
+        margin: 0 auto;
     }
     .section__title{
         font-size: var(--S24);
@@ -993,6 +995,10 @@ h1, h2, h3, h4{
         width: 85%;
         margin: auto;
     }
+    .brund__card {
+        min-width: 205px;
+        min-height: 205px;
+    }
     .cons__description {
         padding: 0;
         display: flex;
@@ -1058,5 +1064,83 @@ h1, h2, h3, h4{
     }
     .cons__image{
         display: none;
+    }
+    .contact__image{
+        display: none;
+    } 
+    .contact__container{
+        /* margin-bottom: initial; */
+        /* display: flex; */
+        margin: 80px 5%;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 10px;
+        /* padding: 20px; */
+        text-align: center;
+        width: 90%;
+        /* padding: 17% 3%; */
+        transform: initial;
+    }
+    .contact__title{
+        font-size: var(--S20);
+    }
+    .contact__par{
+        font-size: var(--S12);
+    }
+    .form{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .input__imail {
+        min-width: 205px;
+    }
+    .contact__parag {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .footer__container {
+        padding: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .blocks {
+        max-width: 280px;
+    }
+    .blocks__title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .block__par {
+        font-size: 12px;
+        font-weight: var(--regular);
+        line-height: 27px;
+        letter-spacing: .11em;
+        max-width: 250px;
+    }
+    .block__par, .block_link {
+            min-width: 280px;
+            font-size: 12px;
+        }
+    .footer__rights {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rights {
+        font-size: 12px;
+    }
+    .social {
+         flex-direction: row;
+         margin-top: 30px;
+         gap: 20px;
+         font-size: 12px;
+        }
+    .social * {
+        padding: 12px;
     }
 }
