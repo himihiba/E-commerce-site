@@ -1,0 +1,150 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    z-index: 100;
+    transition: box-shadow 0.4s;
+  }
+.nav{
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.nav__logo{
+    text-align: center;
+    font-size: var(--S32);
+    color: var(--yellow-normall);
+    line-height: 32px;
+    font-weight: var(--bold);
+}
+.nav__toggle,.nav__close {
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+.nav__cartshop{
+    font-size: 1.4rem;
+}
+.serch__icon{
+    font-size: 1rem;
+    margin-left: -30px;
+    margin-right: 30px;
+    width: 24px;
+    height: 24px;
+}
+.serch__bar{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 455px;
+    margin-left: 10px;
+}
+.serch{
+    border: 1px solid hsla(186, 33%, 78%, 1);
+    border-radius: 15px;
+    padding: 6px;
+    text-indent: 8px;
+    font-size: var(--S16);
+    line-height: 24px;
+    font-weight: var(--regular);
+    width: 100%;
+    height: 44px;
+}
+.serch:focus{
+    border: 3px solid var(--grey-normal);
+    outline: none;
+}
+.mobile__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+
+/* Navigation for mobile devices */
+
+@media  screen and (max-width:1150px)  {
+    .nav__menu{
+      position: fixed;
+      top: 0;
+      right: -100%;
+      background-color: var(--body-color);
+      width: 50%;
+      height: 100vh;
+      padding-block: 4.5rem 3.5rem ;
+      box-shadow: 0 4px 16px hsla(22, 100%, 8%, .2);
+      transition: right 0.7s ease-out;
+    }
+  
+}
+.nav__list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.nav__account{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    row-gap: 2rem;
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--yellow-click);
+    padding-bottom: 30px;
+}
+.list1{
+    display: flex;
+    align-items: center;
+}
+.profileImg{
+    margin-left: 15px;
+}
+.account__list{
+    display: none;
+}
+.nav__links, .nav__links2{
+    position: relative;
+    color:var(--blue-dark);
+    text-transform: capitalize;
+    font-size: var(--S20);
+    line-height: 32px;
+    font-weight: var(--regular);
+}
+  
+.nav__links::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: var(--yellow-normall);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    z-index: -1;
+    transition: width .3s;
+}
+  
+.nav__links:hover::after{
+    width: 60%;
+}
+.nav__close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
+/* Show menu js */
+
+.show-menu{
+    right: 0;
+}
+/* Add shadow header */
+
+.shadow-header{
+    box-shadow: 0 4px 16px var(--yellow-light);
+}
