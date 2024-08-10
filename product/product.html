@@ -96,11 +96,334 @@
      <main>
         <!-- product -->
         <section class="product__section section">
-            <aside class="aside">
-
-            </aside>
-            <div class="productsh__container container">
-
+            <div class="section__container container">
+                <aside class="aside">
+                    <div class="container aside__container">
+                        <h1 class="aside__title">FILTERS</h1>
+                        <div class="avaibal">
+                            <h2 class="av_title">Availability</h2>
+                            <form class="av_chek">
+                                <label>
+                                    <input type="checkbox" name="stock" value="In Stock">
+                                    In Stock <span>(123)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="stock" value="Out Of Stock">
+                                    Out Of Stock <span>(123)</span>
+                                </label><br>
+                            </form>
+                        </div>
+                        <hr>
+                        <div class="rating">
+                            <h2 class="rat__title">Customer ratings</h2>
+                            <div class="star-rating">
+                                <input type="radio" id="star5" name="rating" value="5">
+                            <label for="star5">★</label>
+    
+                            <input type="radio" id="star4" name="rating" value="4">
+                            <label for="star4">★</label>
+    
+                            <input type="radio" id="star3" name="rating" value="3">
+                            <label for="star3">★</label>
+    
+                            <input type="radio" id="star2" name="rating" value="2">
+                            <label for="star2">★</label>
+    
+                            <input type="radio" id="star1" name="rating" value="1">
+                            <label for="star1">★</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="price">
+                            <input type="text" placeholder="From">
+                            <input type="text" placeholder="To">
+                        </div>
+                        <hr>
+                        <div class="brands">
+                            <h2 class="bd__title">Brands</h2>
+                            <div class="serch__bar">
+                                <input type="text" placeholder="search Brand" class="serch">
+                                <div class="serch__icon">
+                                    
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                            <p class="brands__name">
+                                Brittax <br>
+                                Chicco <br>
+                                Sybex <br>
+                                Graco <br>
+                                <span>View more</span>
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="product__type">
+                            <h2 class="prd__">Product type</h2>
+                            <div class="serch__bar">
+                                <input type="text" placeholder="search Brand" class="serch">
+                                <div class="serch__icon">
+                                    
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </div>
+                            <form class="brd_chek">
+                                <label>
+                                    <input type="checkbox" name="brand" value="jogging stroler">
+                                    jogging stroler
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="brand" value="suits">
+                                    suits <span>(23)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="brand" value="jogging stroler">
+                                    jogging stroler
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="brand" value="suits">
+                                    suits <span>(23)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="brand" value="jogging stroler">
+                                    jogging stroler
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="brand" value="suits">
+                                    suits <span>(23)</span>
+                                </label><br>
+                                <span>View more</span>
+                            </form>
+                        </div>
+                        <hr>
+                        <div class="color">
+                            <h2 class="col__title">Color</h2>
+                            <form class="col_chek">
+                                <label>
+                                    <input type="checkbox" name="color" value="Black">
+                                    Black <span>(13)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="color" value="white">
+                                    white <span>(23)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="color" value="Green">
+                                    Green <span>(4)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="color" value="Red">
+                                    Red <span>(8)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="color" value="Yellow">
+                                    Yellow <span>(45)</span>
+                                </label><br>
+                                <label>
+                                    <input type="checkbox" name="color" value="Orange">
+                                    Orange <span>(43)</span>
+                                </label><br>
+                            </form>
+                        </div>
+                        <hr>
+                    </div>
+                </aside>
+                <div class="productsh__container container">
+                    <div class="prod__container">
+                        <a href="../category/category.html" class="product__card  CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product1.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html" class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product2.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html"  class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product3.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html" class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product2.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html"  class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product3.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html" class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product1.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html" class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product2.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                        <a href="../category/category.html"  class="product__card CARD2">
+                            <div class="show__product">
+                                <div class="product__image">
+                                    <img src="../img/product3.svg" alt="image" class="product_img">
+                                </div>
+                                <div class="icons_cont">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                    <i class="fa-solid fa-image"></i>
+                                </div>
+                            </div>
+                            <div class="takieem">
+                                <p class="brand_name">Chicco</p>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <p class="product__name">Kurti Full Sleev</p>
+                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
+                        </a>
+                    </div>
+                    <p>1 2 .....6 Next </p>
+                </div>
             </div>
         </section>
         <!-- recently vieux -->
@@ -180,10 +503,10 @@
                             <p class="product__name">Kurti Full Sleev</p>
                             <p class="price">&dollar;200 <del>&dollar;300</del></p>
                         </a>
-                        <a href="../category/category.html"  class="product__card">
+                        <a href="../category/category.html" class="product__card">
                             <div class="show__product">
                                 <div class="product__image">
-                                    <img src="../img/listgirl4.svg" alt="image" class="product_img">
+                                    <img src="../img/product1.svg" alt="image" class="product_img">
                                 </div>
                                 <div class="icons_cont">
                                     <i class="fa-regular fa-heart"></i>
@@ -204,54 +527,7 @@
                             <p class="product__name">Kurti Full Sleev</p>
                             <p class="price">&dollar;200 <del>&dollar;300</del></p>
                         </a>
-                        <a href="../category/category.html"  class="product__card">
-                            <div class="show__product">
-                                <div class="product__image">
-                                    <img src="../img/listgirl2.svg" alt="image" class="product_img">
-                                </div>
-                                <div class="icons_cont">
-                                    <i class="fa-regular fa-heart"></i>
-                                    <i class="fa-solid fa-bag-shopping"></i>
-                                    <i class="fa-solid fa-image"></i>
-                                </div>
-                            </div>
-                            <div class="takieem">
-                                <p class="brand_name">Chicco</p>
-                                <div class="stars">
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                            <p class="product__name">Kurti Full Sleev</p>
-                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
-                        </a>
-                        <a href="../category/category.html"  class="product__card">
-                            <div class="show__product">
-                                <div class="product__image">
-                                    <img src="../img/listgirl1.svg" alt="image" class="product_img">
-                                </div>
-                                <div class="icons_cont">
-                                    <i class="fa-regular fa-heart"></i>
-                                    <i class="fa-solid fa-bag-shopping"></i>
-                                    <i class="fa-solid fa-image"></i>
-                                </div>
-                            </div>
-                            <div class="takieem">
-                                <p class="brand_name">Chicco</p>
-                                <div class="stars">
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
-                            </div>
-                            <p class="product__name">Kurti Full Sleev</p>
-                            <p class="price">&dollar;200 <del>&dollar;300</del></p>
-                        </a>
+                        
                     </div>
                 </div>
             </div>

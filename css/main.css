@@ -299,6 +299,20 @@
     font-size: 23px;
     color: hsla(0, 0%, 0%, 1);
 }
+.stars {
+    direction: rtl; 
+    cursor: pointer;
+}
+.stars i {
+    font-size: 14px;
+    line-height: 21px ;
+    font-weight: var(--regular);
+    transition: color 0.2s ease-in-out;
+}
+
+.stars i.active {
+    color: #FFD43B; 
+}
 /* Deal section */
 .deal__dtai{
     position: absolute;
