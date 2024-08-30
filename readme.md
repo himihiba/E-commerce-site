@@ -24,11 +24,6 @@ This project is a responsive e-commerce landing page designed to showcase produc
 - **Backend Integration:** As part of the redevelopment, I aim to learn backend development concepts such as working with APIs and JSON, and integrating these into the site.
 - **Improved Responsiveness:** The site currently does not function well on larger screens, so a priority will be to enhance its adaptability across all device sizes.
 
-## Project Structure
-
-- `index.html`: The main HTML file, recently updated to improve structure.
-- `styles.css`: The stylesheet, which is planned to be refactored for better organization.
-- `scripts.js`: JavaScript file (planned for future use) for more dynamic interactivity.
 
 ## Future Goals
 
